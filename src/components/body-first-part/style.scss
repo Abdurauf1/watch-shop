@@ -1,0 +1,64 @@
+@font-face {
+    font-family: my-font;
+    src: url(../assets/fonts/josefin/static/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: my-font-bold;
+    src: url(../assets/fonts/josefin/static/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: my-font-semi;
+    src: url(../assets/fonts/josefin/static/JosefinSans-SemiBold.ttf);
+}
+
+.container {
+    .arrivals {
+        margin: 200px 0;
+        .new-arrivals {
+            font: {
+                family: my-font;
+                size: 50px;
+            }
+            text-transform: capitalize;
+            margin-bottom: 70px;
+        }
+        .arrivals-wrapper {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: space-between;
+            .arrival-card {
+                .arrival-image {
+                    margin-bottom: 30px;
+                    overflow: hidden;
+                    .arrival-img {
+                        transition-duration: .5s;
+                        &:hover {
+                            transform: scale(1.05);
+                        }
+                    }
+                }
+                .arrival-name {
+                    text-align: center;
+                    display: block;
+                    margin-bottom: 20px;
+                    color: #444444;
+                    font: {
+                        family: my-font-bold;
+                        size: 23px;
+                    }
+                }
+                .arrival-price {
+                    text-align: center;
+                    color: #ff2020;
+                    font: {
+                        family: my-font-semi;
+                        size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}

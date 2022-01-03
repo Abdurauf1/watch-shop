@@ -1,0 +1,119 @@
+@font-face {
+    font-family: my-font;
+    src: url(../assets/fonts/josefin/static/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: my-font-light;
+    src: url(../assets/fonts/josefin/static/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: my-font-semi;
+    src: url(../assets/fonts/josefin/static/JosefinSans-SemiBold.ttf);
+}
+
+div {
+    .container {
+        // margin-bottom: 180px;
+        .popular-items-title {
+            font: {
+                size: 50px;
+                family: my-font;
+            }
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .popular-items-text {
+            text-align: center;
+            color: #777;
+            font-family: my-font-light;
+            padding: 17px 250px;
+        }
+        .popular-items-wrapper {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+            .like {
+                position: absolute;
+                color: #444444;
+                width: 30px;
+                height: 30px;
+                top: 20px;
+                right: 20px;
+                opacity: 0;
+                transition-duration: 0.5s;
+                cursor: pointer;
+            }
+            .popular-items-card {
+                width: fit-content;
+                height: fit-content;
+                position: relative;
+                margin-bottom: 50px;
+                &:hover {
+                    .add-to-cart {
+                        height: 60px;
+                        top: 325px;
+                        padding-top: 23px;
+                        color: #fff;
+                    }
+                    .like {
+                        opacity: 1;
+                    }
+                }
+                .card-img {
+                }
+                .add-to-cart {
+                    overflow: hidden;
+                    width: 100%;
+                    height: 4px;
+                    background-color: #ff2020;
+                    position: absolute;
+                    top: 380px;
+                    bottom: 0;
+                    transition-duration: 0.5s;
+                    cursor: pointer;
+                    text-align: center;
+                    font-family: my-font-light;
+                    color: #ff2020;
+                }
+                .card-title {
+                    margin-top: 25px;
+                    text-align: center;
+                    display: block;
+                    margin-bottom: 20px;
+                    color: #444444;
+                    text-transform: capitalize;
+                    font: {
+                        family: my-font;
+                        size: 23px;
+                    }
+                }
+                .card-price {
+                    text-align: center;
+                    color: #444444;
+                    font: {
+                        family: my-font-semi;
+                        size: 17px;
+                    }
+                }
+            }
+        }
+        .view-more-products {
+            cursor: pointer;
+            border: none;
+            background-color: #ff2020;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: my-font-light;
+            font-size: 16px;
+            display: block;
+            margin: auto;
+            height: 55px;
+            width: 250px;
+            padding: 15px 0;
+        }
+    }
+}
