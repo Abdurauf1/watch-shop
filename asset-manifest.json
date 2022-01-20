@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/watch-shop/static/css/main.650ffc56.chunk.css",
-    "main.js": "/watch-shop/static/js/main.18042292.chunk.js",
-    "main.js.map": "/watch-shop/static/js/main.18042292.chunk.js.map",
-    "runtime-main.js": "/watch-shop/static/js/runtime-main.c0852ade.js",
-    "runtime-main.js.map": "/watch-shop/static/js/runtime-main.c0852ade.js.map",
+    "main.css": "/watch-shop/static/css/main.a61ceade.chunk.css",
+    "main.js": "/watch-shop/static/js/main.4ca2736a.chunk.js",
+    "main.js.map": "/watch-shop/static/js/main.4ca2736a.chunk.js.map",
+    "runtime-main.js": "/watch-shop/static/js/runtime-main.3db937f9.js",
+    "runtime-main.js.map": "/watch-shop/static/js/runtime-main.3db937f9.js.map",
     "static/js/2.31323b39.chunk.js": "/watch-shop/static/js/2.31323b39.chunk.js",
     "static/js/2.31323b39.chunk.js.map": "/watch-shop/static/js/2.31323b39.chunk.js.map",
-    "static/js/3.e302de2f.chunk.js": "/watch-shop/static/js/3.e302de2f.chunk.js",
-    "static/js/3.e302de2f.chunk.js.map": "/watch-shop/static/js/3.e302de2f.chunk.js.map",
     "index.html": "/watch-shop/index.html",
-    "static/css/main.650ffc56.chunk.css.map": "/watch-shop/static/css/main.650ffc56.chunk.css.map",
+    "static/css/main.a61ceade.chunk.css.map": "/watch-shop/static/css/main.a61ceade.chunk.css.map",
     "static/js/2.31323b39.chunk.js.LICENSE.txt": "/watch-shop/static/js/2.31323b39.chunk.js.LICENSE.txt",
     "static/media/blog.scss": "/watch-shop/static/media/post_6.c3bfc013.png",
     "static/media/about.scss": "/watch-shop/static/media/vidoe_more.b2a0a47c.png",
@@ -59,9 +57,9 @@
     "static/media/watch.4a8dee3e.png": "/watch-shop/static/media/watch.4a8dee3e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0852ade.js",
+    "static/js/runtime-main.3db937f9.js",
     "static/js/2.31323b39.chunk.js",
-    "static/css/main.650ffc56.chunk.css",
-    "static/js/main.18042292.chunk.js"
+    "static/css/main.a61ceade.chunk.css",
+    "static/js/main.4ca2736a.chunk.js"
   ]
 }
