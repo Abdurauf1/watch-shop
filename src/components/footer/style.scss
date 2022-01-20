@@ -13,7 +13,6 @@
                 width: 300px;
                 height: fit-content;
                 .footer-img {
-                    
                 }
                 .img-under-text {
                     margin-top: 30px;
@@ -33,7 +32,7 @@
                             font-family: sans-serif;
                             color: #777;
                             font-size: 16px;
-                            transition-duration: .5s;
+                            transition-duration: 0.5s;
                             &:hover {
                                 margin-left: 5px;
                                 color: #fe2020;
@@ -62,7 +61,7 @@
                 .icon {
                     margin: 0 10px;
                     color: #777;
-                    transition-duration: .5s;
+                    transition-duration: 0.5s;
                     &:hover {
                         color: #fe2020;
                         transform: rotateY(180deg);

@@ -4,11 +4,6 @@ import choiceWatch1 from "../assets/img/gallery/choce_watch1.png"
 // import choiceWatch2 from "../assets/img/gallery/choice_watch2.png"
 
 class WatchChoiceFirst extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div className="container">

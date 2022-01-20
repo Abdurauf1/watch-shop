@@ -18,11 +18,6 @@ import footerImg from "../components/assets/img/logo/logo2_footer.png"
 import heart from "../components/assets/img/like.svg"
 
 class Blog extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div>

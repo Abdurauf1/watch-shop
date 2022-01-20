@@ -7,11 +7,6 @@ import userIcon from "./images/user.svg"
 import { Link } from "react-router-dom"
 
 class Navbar extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <nav className="nav">
@@ -23,7 +18,7 @@ class Navbar extends React.Component {
 
                 <ul className="nav-links">
                     <li className="nav-list-item">
-                        <Link to="/" className="nav-link-href">home</Link>
+                        <Link to="/watch-shop" className="nav-link-href">home</Link>
                     </li>
                     <li className="nav-list-item">
                         <Link to="/shop" className="nav-link-href">shop</Link>

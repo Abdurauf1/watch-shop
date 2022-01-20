@@ -1,20 +1,15 @@
 import React from "react"
 import { BrowserRouter, Switch, Route } from "react-router-dom"
-import Home from "./home"
-import Navbar from "../components/navbar"
-import Footer from "../components/footer"
-import Shop from "./shop"
-import About from "./about"
-import Blog from "./blog"
-import Contact from "./contact"
-import Up from "./up-btn"
+import Home from "./home.js"
+import Navbar from "./navbar/index.js"
+import Footer from "./footer/index.js"
+import Shop from "./shop.js"
+import About from "./about.js"
+import Blog from "./blog.js"
+import Contact from "./contact.js"
+import Up from "./up-btn/index.js"
 
 class MainPage extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div>
@@ -22,7 +17,7 @@ class MainPage extends React.Component {
                     <Navbar />
 
                     <Switch>
-                        <Route path="/" exact>
+                        <Route path="/watch-shop" exact>
                             <Home />
                         </Route>
                         <Route path="/shop">

@@ -12,11 +12,6 @@ import secure from "../components/assets/img/open-lock.svg"
 import refresh from "../components/assets/img/refresh.svg"
 
 class Shop extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div>

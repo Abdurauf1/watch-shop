@@ -3,11 +3,6 @@ import "./style.scss"
 import choiceWatch2 from "../assets/img/gallery/choce_watch2.png"
 
 class WatchChoiceSecond extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div className="container">

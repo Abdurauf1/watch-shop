@@ -7,31 +7,26 @@ import img4 from "../assets/img/gallery/gallery4.png"
 
 
 class BodySecondPart extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div className="second-part">
                 <div className="first">
                     <div className="img1">
-                        <img src={img1} alt="" className="image1"/>
+                        <img src={img1} alt="" className="image1" />
                         <div className="alpha"></div>
                     </div>
                     <div className="img2">
-                        <img src={img2} alt="" className="image2"/>
+                        <img src={img2} alt="" className="image2" />
                         <div className="alpha"></div>
                     </div>
                 </div>
-                <div className="second">    
+                <div className="second">
                     <div className="img3">
-                        <img src={img3} alt="" className="image3"/>
+                        <img src={img3} alt="" className="image3" />
                         <div className="alpha"></div>
                     </div>
                     <div className="img4">
-                        <img src={img4} alt=""  className="image4"/>
+                        <img src={img4} alt="" className="image4" />
                         <div className="alpha"></div>
                     </div>
                 </div>

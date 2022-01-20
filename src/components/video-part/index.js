@@ -4,11 +4,6 @@ import arrow from "../assets/img/arrow-pointing-to-right.svg"
 import play from "../assets/img/play-button-arrowhead.svg"
 
 class Video extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div className="bg-video-img">

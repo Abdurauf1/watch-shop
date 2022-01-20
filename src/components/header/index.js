@@ -3,11 +3,6 @@ import "./style.scss"
 import headerImg from "../assets/img/hero/watch.png"
 
 class Header extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <header>

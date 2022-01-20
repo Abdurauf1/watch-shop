@@ -4,11 +4,6 @@ import footerImg from "../assets/img/logo/logo2_footer.png"
 import heart from "../assets/img/like.svg"
 
 class Footer extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div className="container">

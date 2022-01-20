@@ -8,11 +8,6 @@ import refresh from "../components/assets/img/refresh.svg"
 
 
 class About extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div>
